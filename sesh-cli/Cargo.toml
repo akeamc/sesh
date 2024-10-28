@@ -1,0 +1,11 @@
+[package]
+name = "sesh-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.91"
+clap = { version = "4.5.20", features = ["derive"] }
+sesh = { version = "0.1.0", path = "../sesh" }
+tabwriter = "1.4.0"
+thiserror = "1.0.65"
